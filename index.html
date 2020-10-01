@@ -17,30 +17,28 @@
   <body>
     <header class="header">
       <div class="container flexbox">
-        <nav class="sait-nav">
-          <a href="" class="sait-nav logo">
-            <span class="accent">Web</span>Studio</a
-          >
-          <ul class="list sait-nav-list">
-            <li class="sait-nav item">
-              <a href="" class="site-nav link current">Студия</a>
+        <nav class="navigeychin">
+          <a href="" class="logo"> <span class="accent">Web</span>Studio</a>
+          <ul class="list menu">
+            <li class="menu__item">
+              <a href="" class="menu__link current">Студия</a>
             </li>
-            <li class="sait-nav item">
-              <a href="./portfolio.html" class="site-nav link">Портфолио</a>
+            <li class="menu__item">
+              <a href="./portfolio.html" class="menu__link">Портфолио</a>
             </li>
-            <li class="sait-nav item">
-              <a href="" class="sait-nav link">Контакты</a>
+            <li class="menu__item">
+              <a href="" class="menu__link">Контакты</a>
             </li>
           </ul>
         </nav>
-        <a class="sait-nav link" href="mailto:info@devstudio.com">
-          <svg class="link-icon" width="16" height="16">
+        <a class="menu__link" href="mailto:info@devstudio.com">
+          <svg class="menu__link-icon" width="16" height="16">
             <use href="./images/sprite.svg#envelope"></use>
           </svg>
           info@devstudio.com
         </a>
-        <a class="sait-nav link" href="tel:+380991111111">
-          <svg class="link-icon" width="10" height="16">
+        <a class="menu__link" href="tel:+380991111111">
+          <svg class="menu__link-icon" width="10" height="16">
             <use href="./images/sprite.svg#fone"></use>
           </svg>
           +380991111111</a
@@ -48,21 +46,23 @@
       </div>
     </header>
     <main>
-      <section class="section hero">
-        <div class="container hero-box">
-          <h1 class="hero-title">
-            Эффективные решения <br />
-            для вашего бизнеса
-          </h1>
-          <button class="button" data-modal-open>Заказать услугу</button>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__box">
+            <h1 class="hero__title">
+              Эффективные решения <br />
+              для вашего бизнеса
+            </h1>
+            <button class="button" data-modal-open>Заказать услугу</button>
+          </div>
         </div>
       </section>
-      <section class="section features">
+      <section class="features">
         <div class="container features-cont">
-          <h2 class="section-features-title">особенности</h2>
-          <ul class="list features-list">
-            <li class="features">
-              <a class="features-icon-list" href=""
+          <h2 class="features--title">особенности</h2>
+          <ul class="list features__list">
+            <li class="featur">
+              <a class="features-icon__list" href=""
                 ><svg
                   class="features-icon"
                   width="70"
@@ -73,14 +73,14 @@
                   <use href="./images/sprite.svg#antenna 1"></use>
                 </svg>
               </a>
-              <h3 class="features-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
-              <p class="features-text">
+              <h3 class="features__title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+              <p class="features__text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию.
               </p>
             </li>
-            <li class="features">
-              <a class="features-icon-list" href=""
+            <li class="featur">
+              <a class="features-icon__list" href=""
                 ><svg
                   class="features-icon"
                   width="70"
@@ -91,14 +91,14 @@
                   <use href="./images/sprite.svg#clock 1"></use>
                 </svg>
               </a>
-              <h3 class="features-title">ПУНКТУАЛЬНОСТЬ</h3>
-              <p class="features-text">
+              <h3 class="features__title">ПУНКТУАЛЬНОСТЬ</h3>
+              <p class="features__text">
                 Задачаорганизации,в особенности жерамкии место обучения кадров
                 влечет за собой.
               </p>
             </li>
-            <li class="features">
-              <a class="features-icon-list" href=""
+            <li class="featur">
+              <a class="features-icon__list" href=""
                 ><svg
                   class="features-icon"
                   width="70"
@@ -109,14 +109,14 @@
                   <use href="./images/sprite.svg#diagram 1"></use>
                 </svg>
               </a>
-              <h3 class="features-title">ПЛАНИРОВАНИЕ</h3>
-              <p class="features-text">
+              <h3 class="features__title">ПЛАНИРОВАНИЕ</h3>
+              <p class="features__text">
                 Равным образомконсультация с широкимактивом взначительнойстепени
                 обуславливает.
               </p>
             </li>
-            <li class="features">
-              <a class="features-icon-list" href=""
+            <li class="featur">
+              <a class="features-icon__list" href=""
                 ><svg
                   class="features-icon"
                   width="70"
@@ -127,8 +127,8 @@
                   <use href="./images/sprite.svg#astronaut 1"></use>
                 </svg>
               </a>
-              <h3 class="features-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
-              <p class="features-text">
+              <h3 class="features__title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+              <p class="features__text">
                 Значимость этих проблем настолькоочевидна,что реализация
                 плановых заданий.
               </p>
@@ -136,36 +136,36 @@
           </ul>
         </div>
       </section>
-      <section class="section doing">
+      <section class="doing">
         <div class="container">
-          <h2 class="section-title">Чем мы занимаемся</h2>
-          <ul class="list doing-list">
-            <li class="doing-item">
+          <h2 class="title">Чем мы занимаемся</h2>
+          <ul class="list doing--list">
+            <li class="doing--item">
               <img
                 src="./images/1.jpg"
                 width="370"
                 alt="програмирование в офисе"
               />
-              <span class="doing-text">Десктопные приложения</span>
+              <span class="doing--text">Десктопные приложения</span>
             </li>
-            <li class="doing-item">
+            <li class="doing--item">
               <img
                 src="./images/2.jpg"
                 width="370"
                 alt="приложение в смартфоне"
               />
-              <span class="doing-text">Мобильные приложения</span>
+              <span class="doing--text">Мобильные приложения</span>
             </li>
-            <li class="doing-item">
+            <li class="doing--item">
               <img src="./images/3.jpg" width="370" alt="веб-дизайн" />
-              <span class="doing-text">Дизайнерские решения</span>
+              <span class="doing--text">Дизайнерские решения</span>
             </li>
           </ul>
         </div>
       </section>
-      <section class="section team">
+      <section class="team">
         <div class="container team-cont">
-          <h2 class="section-title">Наша команда</h2>
+          <h2 class="title">Наша команда</h2>
           <ul class="list team-list">
             <li class="team-personal">
               <img
@@ -424,7 +424,7 @@
       </section>
       <section class="client">
         <div class="container client-cont">
-          <h2 class="section-title">Постоянные клиенты</h2>
+          <h2 class="title">Постоянные клиенты</h2>
           <ul class="list client-icon-list">
             <li class="client-icon-item">
               <a class="client-icon-link">
