@@ -340,11 +340,11 @@ body {
   padding-bottom: 94px;
   background-color: var(--background-team-color);
 }
-.team-list {
+.team__list {
   display: flex;
   justify-content: space-between;
 }
-.team-personal {
+.team__list-personal {
   width: calc((100% - 30px x 3) / 4);
   margin-right: 30px;
   background-color: var(--fons-color);
@@ -356,10 +356,10 @@ body {
 .imag-team {
   width: 100%;
 }
-.team-personal:nth-child(4n) {
+.team__list-personal:nth-child(4n) {
   margin-right: 0px;
 }
-.team-personal:nth-last-child(- n + 4) {
+.team__list-personal:nth-last-child(- n + 4) {
   margin-right: 0px;
 }
 .socisl-icon-list {
