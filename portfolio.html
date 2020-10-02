@@ -17,34 +17,40 @@
   <body>
     <header class="header">
       <div class="container flexbox">
-        <nav class="sait-nav">
-          <a href="" class="sait-nav logo">
+        <nav class="navigeychin">
+          <a href="" class="navigeychin__logo">
             <span class="accent">Web</span>Studio</a
           >
-          <ul class="list sait-nav-list">
-            <li class="sait-nav item">
-              <a href="./index.html" class="site-nav link">Студия</a>
+          <ul class="list menu">
+            <li class="menu__item">
+              <a href="" class="menu__link current">Студия</a>
             </li>
-            <li class="sait-nav item">
-              <a href="" class="site-nav link current">Портфолио</a>
+            <li class="menu__item">
+              <a href="./portfolio.html" class="menu__link">Портфолио</a>
             </li>
-            <li class="sait-nav item">
-              <a href="" class="site-nav link">Контакты</a>
+            <li class="menu__item">
+              <a href="" class="menu__link">Контакты</a>
             </li>
           </ul>
         </nav>
-        <a class="sait-nav link" href="mailto:info@devstudio.com">
-          <svg class="link-icon" width="16" height="16">
-            <use href="./images/sprite.svg#envelope"></use>
-          </svg>
-          info@devstudio.com
-        </a>
-        <a class="sait-nav link" href="tel:+380991111111">
-          <svg class="link-icon" width="10" height="16">
-            <use href="./images/sprite.svg#fone"></use>
-          </svg>
-          +380991111111</a
-        >
+        <ul class="list menu">
+          <li class="navigeychin__contact">
+            <a class="menu__link" href="mailto:info@devstudio.com">
+              <svg class="menu__link-icon" width="16" height="16">
+                <use href="./images/sprite.svg#envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="navigeychin__contact">
+            <a class="menu__link" href="tel:+380991111111">
+              <svg class="menu__link-icon" width="10" height="16">
+                <use href="./images/sprite.svg#fone"></use>
+              </svg>
+              +380991111111</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -162,65 +168,65 @@
             <a href="tel:+380991111111" class="footer-link">+380991111111</a>
           </address>
         </div>
-        <div class="container join-link">
-          <h3 class="join">ПРИСОЕДИНЯЙТЕСЬ</h3>
-          <ul class="list footer-icon-list">
-            <li class="footer-icon-item">
+        <div class="container join">
+          <h3 class="join-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
+          <ul class="list join-icons">
+            <li class="join-icons__item">
               <a
-                class="footer-icon-link"
+                class="join-icons__link"
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener norefferrel"
                 aria-label="ссылка Инстаграм"
               >
-                <svg class="footer-icon">
+                <svg class="join-icons__icon">
                   <use href="./images/sprite.svg#instagram 2"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-icon-item">
+            <li class="join-icons__item">
               <a
-                class="footer-icon-link"
+                class="join-icons__link"
                 href="https://twitter.com/"
                 target="_blank"
                 rel="noopener norefferrel"
                 aria-label="ссылка Твитер"
               >
-                <svg class="footer-icon">
+                <svg class="join-icons__icon">
                   <use href="./images/sprite.svg#twitter 1"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-icon-item">
+            <li class="join-icons__item">
               <a
-                class="footer-icon-link"
+                class="join-icons__link"
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener norefferrel"
                 aria-label="ссылка Фейсбук"
               >
-                <svg class="footer-icon">
+                <svg class="join-icons__icon">
                   <use href="./images/sprite.svg#facebook 1"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-icon-item">
+            <li class="join-icons__item">
               <a
-                class="footer-icon-link"
+                class="join-icons__link"
                 href="https://ru.linkedin.com/"
                 target="_blank"
                 rel="noopener norefferrel"
                 aria-label="ссылка Линкенд"
-                ><svg class="footer-icon">
+                ><svg class="join-icons__icon">
                   <use href="./images/sprite.svg#linkedin 1"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="footer-form">
+        <div class="form">
           <h3 class="form-title">Подпишитесь на рассылку</h3>
-          <form class="footer-form-subscribe">
+          <form class="form-subscribe">
             <label for="mail"></label>
             <input
               type="email"
@@ -230,7 +236,7 @@
               class="form-mail"
             />
 
-            <button type="submit" class="footer-btm">Подписаться</button>
+            <button type="submit" class="form-btm">Подписаться</button>
           </form>
         </div>
       </div>
