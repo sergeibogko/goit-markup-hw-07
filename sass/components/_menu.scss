@@ -1,0 +1,40 @@
+.menu {
+  display: flex;
+}
+.menu-item:not(:last-child) {
+  padding-right: 50px;
+}
+.menu-item__link {
+  text-decoration: none;
+}
+.menu-item {
+  color: $primery-text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.menu-item__link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: 0px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  position: relative;
+}
+.menu-item__link-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  text-decoration: none;
+  color: $svg-color;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu-item__link-icon :hover {
+  fill: $accent-color;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
