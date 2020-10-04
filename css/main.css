@@ -141,7 +141,7 @@ body {
 }
 
 .header a:hover svg,
-.header a:focus svg {
+.headerr a:focus svg {
   fill: #2196f3;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
